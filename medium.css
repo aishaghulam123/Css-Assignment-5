@@ -119,7 +119,10 @@ width: 200px;
   .wrapper{
     margin-top: 750px;
 }  
-.cause .content .btn2,.cause .content .btn3,.cause .content .do-btn{left: 50%;}
+.cause .content .btn2,.cause .content .btn3,.cause .content .do-btn{left: 50%; 
+width: 35%;
+font-size: small;
+}
 .events .causes .content{
    flex-direction: column;
    
