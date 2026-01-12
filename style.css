@@ -145,7 +145,8 @@ footer .content i{
 .cause .content .btn2{left: 48%;}
 .cause .content .btn3{left: 80%;}
 }
-.volunteers .circle{
+
+.volunteers .circle,.about .circle{
     height: 460px;
     width: 500px;
   
@@ -153,16 +154,17 @@ footer .content i{
     z-index: 1;
     position: absolute;
 }
-.volunteers .content{
+.about .circle{ max-width:300px; height: 250px;}
+.volunteers .content,.about .content{
    z-index: 2;
 }
 .volunteers .content .images{
    z-index: 5;
 }
 .volunteers .content .images img:hover{
-   transform: scale(1.1);
+ border-radius: 50%;
    
-   transition: 0.3s;
+   transition: 0.50s ease-in-out;
 }
 
 

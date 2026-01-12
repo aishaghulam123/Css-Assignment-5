@@ -89,10 +89,14 @@
 .my-slider .content button ,.my-slider .content p{
     display: none;
 }
-.volunteers .circle{
+.volunteers .circle,.about .circle{
 height: 200px;
 width: 200px;
 
+}
+.volunteers .content,.about .content{
+
+z-index: 4;
 }
 .my-slider .content{
     
